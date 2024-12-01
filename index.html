@@ -1,5 +1,13 @@
 <html>
+    <head>
+        <title>
+            Meine erste JavaScript-Seite
+        </title>
+    </head>
     <body>
+        <h1>
+            Meine erste JavaScript-Seite
+        </h1>
         <h2>
             HTML-Inhalte verändern
         </h2>
@@ -10,7 +18,7 @@
             Inhalt ändern
         </button>
         <h2>
-            Das Layout verändern
+            Die Farbe verändern
         </h2>
         <p id="absatz2">
             Hat sich der Text verändert?
@@ -21,12 +29,25 @@
         <h2>
             Grafik auswechseln
         </h2>
-        <button onclick="document.getElementById('meinBild').src='https://www.color-meanings.com/wp-content/uploads/red-shade-brush-strokes-1024x1024.jpeg'">
+        <button onclick="document.getElementById('meinBild').src='https://img.freepik.com/free-photo/red-paper-background-elegant-scarlet-background-holiday-decoration-web-design-paper-texture_166373-2152.jpg'">
             Bild1
         </button>
-        <img id="meinBild" src="https://www.color-meanings.com/wp-content/uploads/red-shade-brush-strokes-1024x1024.jpeg">
-        <button onclick="document.getElementById('meinBild').src='https://www.color-meanings.com/wp-content/uploads/blue-shade-brush-strokes-1024x1024.jpeg'">
+        <img id="meinBild" src="https://img.freepik.com/free-photo/red-paper-background-elegant-scarlet-background-holiday-decoration-web-design-paper-texture_166373-2152.jpg">
+        <button onclick="document.getElementById('meinBild').src='https://upload.wikimedia.org/wikipedia/commons/b/bd/Oxford_Blue.png'">
             Bild2
         </button>
+        <h2>
+            Auf Betriebssystem-Funktionen zugreifen
+        </h2>
+        <p id="absatz3">
+            Hier erscheint gleich das Datum.
+        </p>
+        <button type="button3" onclick="document.getElementById('absatz3').innerHTML = Date()">
+            Datum anzeigen
+        </button>
+        <script src="meinScript.js">
+            // Scripts are imported from meinScript.js
+            "use strict";
+        </script>
     </body>
 </html>
