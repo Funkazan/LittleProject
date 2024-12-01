@@ -26,9 +26,9 @@ After cloning the repository and opening the project files, you can start explor
 
 Example:
 
-    [functions.js – Demonstrates basic functions and function expressions.]
-    [arrays.js – Implements examples of array manipulation and methods.]
-    [dom-manipulation.js – Shows how JavaScript interacts with HTML elements in the DOM.]
+    **functions.js – Demonstrates basic functions and function expressions.
+    **arrays.js – Implements examples of array manipulation and methods.
+    **dom-manipulation.js – Shows how JavaScript interacts with HTML elements in the DOM.
 
 To run or test any JavaScript code, simply open the corresponding .html file in your browser.
 
