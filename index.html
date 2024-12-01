@@ -9,8 +9,24 @@
         <button type="button" onclick="document.getElementById('absatz').innerHTML = 'Veränderter Inhalt'">
             Inhalt ändern
         </button>
-        <button type="button2" onclick="document.getElementById('absatz').style.color = 'red'">
+        <h2>
+            Das Layout verändern
+        </h2>
+        <p id="absatz2">
+            Hat sich der Text verändert?
+        </p>
+        <button type="button2" onclick="document.getElementById('absatz2').style.color = 'red'">
             Farbe ändern
+        </button>
+        <h2>
+            Grafik auswechseln
+        </h2>
+        <button onclick="document.getElementById('meinBild').src='https://www.color-meanings.com/wp-content/uploads/red-shade-brush-strokes-1024x1024.jpeg'">
+            Bild1
+        </button>
+        <img id="meinBild" src="https://www.color-meanings.com/wp-content/uploads/red-shade-brush-strokes-1024x1024.jpeg">
+        <button onclick="document.getElementById('meinBild').src='https://www.color-meanings.com/wp-content/uploads/blue-shade-brush-strokes-1024x1024.jpeg'">
+            Bild2
         </button>
     </body>
 </html>
