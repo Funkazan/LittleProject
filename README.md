@@ -26,9 +26,9 @@ After cloning the repository and opening the project files, you can start explor
 
 Example:
 
-    - functions.js – Demonstrates basic functions and function expressions.
-    - arrays.js – Implements examples of array manipulation and methods.
-    - dom-manipulation.js – Shows how JavaScript interacts with HTML elements in the DOM.
+    [functions.js – Demonstrates basic functions and function expressions.]
+    [arrays.js – Implements examples of array manipulation and methods.]
+    [dom-manipulation.js – Shows how JavaScript interacts with HTML elements in the DOM.]
 
 To run or test any JavaScript code, simply open the corresponding .html file in your browser.
 
@@ -37,8 +37,8 @@ To run or test any JavaScript code, simply open the corresponding .html file in 
 Contributions to this project are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes.
 Steps to Contribute:
 
-    Fork the repository.
-    Create a new branch.
-    Implement your changes or add new features.
-    Commit your changes with a clear and concise message.
-    Push to your fork and create a pull request.
+    [Fork the repository.]
+    [Create a new branch.]
+    [Implement your changes or add new features.]
+    [Commit your changes with a clear and concise message.]
+    [Push to your fork and create a pull request.]
